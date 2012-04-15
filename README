@@ -1,0 +1,31 @@
+unity-basico
+Estudos e testes sobre conceitos básicos de jogos 3D
+
+Global setup:
+ http://help.github.com/set-up-git-redirect
+ Set up git
+  git config --global user.name "Your User Name"
+  git config --global user.email your@email.com
+      
+Next steps:
+  mkdir 3k
+  cd 3k
+  git init
+  touch README
+  git add README
+  git commit -m 'first commit'
+  git remote add origin git@github.com:marlonandrade/3k.git
+  git push -u origin master
+      
+Existing Git Repo?
+  cd existing_git_repo
+  git remote add origin git@github.com:marlonandrade/3k.git
+  git push -u origin master
+      
+Importing a Subversion Repo?
+  Check out the guide for step by step instructions.
+  http://help.github.com/import-from-subversion/
+      
+When you're done:
+  Continue
+  https://github.com/marlonandrade/3k
